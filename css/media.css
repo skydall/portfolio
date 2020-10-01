@@ -1,0 +1,49 @@
+@media(max-width: 375px)  {
+    .wripper-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .wh1 {
+        margin-bottom: 30px;
+        margin-left: 50%;
+    }
+    .wh2 {
+        margin-bottom: 30px;
+        margin-left: 50%;
+    }
+    .wh3 {
+        display: none;
+        
+    }
+    .logodiv {
+        background-image: url(../img/media_chel.png);
+        width: 300px;
+        height: 500px;
+        margin-left: 50%;
+    }
+    .logodiv img {
+        width: 30px;
+    }
+    #About {
+        width: 800px;
+    }
+    #Skills {
+        width: 800px;
+        text-align: center;
+    }
+    .skillsimg {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+    .skillsimg img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .portimg {
+        width: 800px;
+    }
+
+}
