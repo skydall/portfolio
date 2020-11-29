@@ -36,3 +36,35 @@ var wow = new WOW(
     }
     sol.innerHTML = str;
   }
+  let h=document.getElementById("h");
+  let m=document.getElementById("m");
+  let s=document.getElementById("s");
+  let da=document.getElementById("da");
+
+  setInterval(tic,1000);
+
+  function tic() {
+    let day= new Date();
+    let timeend = new Date('December 31, 2020 23:59:59');
+    let da = 7-day.getDay;
+
+    let hours=23-day.getHours();
+
+    if (hours<10) {
+      hours="0"+hours;
+    }
+
+    let min=59-day.getMinutes();
+    if (min<10) {
+      min="0"+min;
+    }
+
+    let sec=59- day.getSeconds(); 
+    if (sec<10) {
+      sec="0"+sec;
+    }
+    da.innerHTML= da +":";
+    h.innerHTML= hours+":";
+    m.innerHTML= min+":";
+    s.innerHTML= sec;
+  }
